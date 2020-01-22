@@ -6,17 +6,17 @@ import cv2
 # load the contents of the class labels file, then define the sample
 # duration (i.e., # of frames for classification) and sample size
 # (i.e., the spatial dimensions of the frame)
-CLASSES = open('Your path/action_recognition_kinetics.txt').read().strip().split("\n")
+CLASSES = open('Your path/action_recognition_kinetics.txt').read().strip().split("\n") 		#MODIFY HERE
 SAMPLE_DURATION = 16
 SAMPLE_SIZE = 112
 
 # load the human activity recognition model
-print("[INFO] loading human activity recognition model...")
+print("[INFO] loading human activity recognition model...")					#MODIFY HERE
 net = cv2.dnn.readNet('Your path/resnet-34_kinetics.onnx')
 
 # grab a pointer to the input video stream
 print("[INFO] accessing video stream...")
-vs = cv2.VideoCapture('Your path/activities.mp4') # or your video name
+vs = cv2.VideoCapture('Your path/activities.mp4') 			     #MODIFY HERE or your video name
 
 # loop until we explicitly break from it
 while True:

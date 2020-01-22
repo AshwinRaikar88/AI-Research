@@ -1,7 +1,3 @@
-# USAGE
-# python human_activity_reco.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt --input example_activities.mp4
-# python human_activity_reco.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt
-
 import numpy as np
 import imutils
 import sys
@@ -10,17 +6,17 @@ import cv2
 # load the contents of the class labels file, then define the sample
 # duration (i.e., # of frames for classification) and sample size
 # (i.e., the spatial dimensions of the frame)
-CLASSES = open('D:/Downloads/Documents/GitHub/Python/Computer Vision/human-activity-recognition/action_recognition_kinetics.txt').read().strip().split("\n")
+CLASSES = open('Your path/action_recognition_kinetics.txt').read().strip().split("\n")
 SAMPLE_DURATION = 16
 SAMPLE_SIZE = 112
 
 # load the human activity recognition model
 print("[INFO] loading human activity recognition model...")
-net = cv2.dnn.readNet('D:/Downloads/Documents/GitHub/Python/Computer Vision/human-activity-recognition/resnet-34_kinetics.onnx')
+net = cv2.dnn.readNet('Your path/resnet-34_kinetics.onnx')
 
 # grab a pointer to the input video stream
 print("[INFO] accessing video stream...")
-vs = cv2.VideoCapture('D:/Downloads/Documents/GitHub/Python/Computer Vision/human-activity-recognition/armwrs.mp4')
+vs = cv2.VideoCapture('Your path/activities.mp4') # or your video name
 
 # loop until we explicitly break from it
 while True:

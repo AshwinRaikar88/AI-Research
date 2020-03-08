@@ -1,5 +1,5 @@
 # Using OpenCV Python to capture images from a webcam
-You can use Opencv python to capture a frame from the webcam and save it into the system
+You can use Opencv python to capture a frame from the webcam and save it into the system.
 
 ## Installation
 
@@ -21,7 +21,7 @@ python3 app.py
 * To capture an image press 's'
 * If you want to quit, just press 'q'
 
-The image will be saved in output directory
+The image will be saved in output directory.
 
 ### Capture image after a specified time delay
 Run app_delay.py on the terminal
@@ -37,7 +37,7 @@ a, output = capture_frame.capture_delay('My Image.jpg', 120)
 ...
 ```
 
-The image will be saved in output directory
+The image will be saved in output directory.
 
 ## Further improvements
 *  New funtionalities will be added

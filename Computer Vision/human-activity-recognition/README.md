@@ -11,7 +11,7 @@ conda install -c conda-forge opencv
 ```
 
 Using cmd:
-``` bash
+```
 pip install opencv-python
 ```
 #### Go to this link and download these files in folder(human-activity-recognition) containing the code

@@ -18,8 +18,8 @@ Run app.py on the terminal
 ```bash
 python3 app.py
 ```
-To capture an image press 's'
-If you want to quit, just press 'q'
+* To capture an image press 's'
+* If you want to quit, just press 'q'
 
 The image will be saved in output directory
 
@@ -38,3 +38,8 @@ a, output = capture_frame.capture_delay('My Image.jpg', 120)
 ```
 
 The image will be saved in output directory
+
+## Further improvements
+*  New funtionalities will be added
+*  This program was successfully tested on windows 
+*  Feel free to modify and test on other OS

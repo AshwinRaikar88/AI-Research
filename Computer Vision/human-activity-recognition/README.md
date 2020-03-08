@@ -6,14 +6,14 @@ human-activity-recognition
 
 #### Update OpenCV using the link 
 Using Anaconda:
-'''bash
+```
 conda install -c conda-forge opencv
-'''
+```
 
 Using cmd:
-'''bash
+``` bash
 pip install opencv-python
-'''
+```
 #### Go to this link and download these files in folder(human-activity-recognition) containing the code
 
 Model: [resnet-34_kinetics.onnx](https://drive.google.com/open?id=1q_ZO4MZJ-b2FX5_pFii-RN46vKZB9i0N)

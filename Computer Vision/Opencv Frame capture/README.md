@@ -1,4 +1,4 @@
-# Using OpenCV Pyton to capture images from a webcam
+# Using OpenCV Python to capture images from a webcam
 You can use Opencv python to capture a frame from the webcam and save it into the system
 
 ## Installation

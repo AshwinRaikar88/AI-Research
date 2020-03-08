@@ -6,12 +6,12 @@ human-activity-recognition
 
 ### Update OpenCV using the link 
 Using Anaconda:
-```
+```bash
 conda install -c conda-forge opencv
 ```
 
 Using pip:
-```
+```bash
 pip install opencv-python
 ```
 #### Go to this link and download these files in the directory (human-activity-recognition) containing the code

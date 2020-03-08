@@ -24,7 +24,7 @@ python3 app.py
 The image will be saved in output directory
 
 ### Capture image after a specified time delay
-Run app_deay.py on the terminal
+Run app_delay.py on the terminal
 ```bash
 python3 app_delay.py
 ```
